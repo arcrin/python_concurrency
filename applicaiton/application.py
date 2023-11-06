@@ -1,6 +1,6 @@
 import asyncio
-from executor_engine_interface import ExecutorEngineInterface
-from communication_component_interface import CommunicationComponentInterface
+from engine.executor_engine_interface import ExecutorEngineInterface
+from communication.communication_component_interface import CommunicationComponentInterface
 
 class ScriptExecutor:
     def __init__(self, engine: ExecutorEngineInterface, comm: CommunicationComponentInterface):
@@ -37,8 +37,8 @@ class ScriptExecutor:
 
 
 if __name__ == "__main__":
-    from tag_script_engine import TAGScriptEngine
-    from websocket_com import WebSocketCommComponent
+    from engine.tag_script_engine import TAGScriptEngine
+    from communication.websocket_com import WebSocketCommComponent
     # You'll need to create instances of classes that implement the interfaces
     engine = TAGScriptEngine()
     comm = WebSocketCommComponent("localhost", 8765)
