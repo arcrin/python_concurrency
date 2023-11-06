@@ -1,4 +1,4 @@
-from executor_engine_interface import ExecutorEngineInterface
+from .executor_engine_interface import ExecutorEngineInterface
 import asyncio
 
 class TAGScriptEngine(ExecutorEngineInterface):

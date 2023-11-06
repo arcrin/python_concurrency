@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 class CommunicationComponentInterface(ABC):
     @abstractmethod
-    async def send_message(self, message):
+    async def send_message(self, client, message):
         pass
 
     @abstractmethod

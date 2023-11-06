@@ -1,6 +1,6 @@
 import asyncio
 import websockets
-from communication_component_interface import CommunicationComponentInterface
+from .communication_component_interface import CommunicationComponentInterface
 
 class WebSocketCommComponent(CommunicationComponentInterface):
     def __init__(self, host, port):
@@ -21,18 +21,18 @@ class WebSocketCommComponent(CommunicationComponentInterface):
         async with websockets.serve(self.handler, self.host, self.port):
             await asyncio.Future()  # run forever
 
-    async def handler(self, websocket, path):
+    async def handler(self, client, path):
         # Register.
-        self.connected.add(websocket)
+        self.connected.add(client)
         try:
-            async for message in websocket:
-                response = await self.message_callback(websocket, message)
+            async for message in client:
+                response = await self.message_callback(client, message)
         finally:
             # Unregister.
-            self.connected.remove(websocket)
+            self.connected.remove(client)
 
-    async def send_message(self, websocket, message):
-        await websocket.send(message)
+    async def send_message(self, client, message):
+        await client.send(message)
         return "Message sent"
 
     async def receive_message(self):
