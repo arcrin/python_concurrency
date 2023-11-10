@@ -1,21 +1,26 @@
 import asyncio
+from asyncio.tasks import Task
 from engine.executor_engine_interface import ExecutorEngineInterface
-from communication.communication_component_interface import CommunicationComponentInterface
+from communication.communication_protocol import CommunicationProtocol, CommClientProtocol
+from typing import Coroutine, Any, Dict, Union
 
 class ScriptExecutor:
-    def __init__(self, engine: ExecutorEngineInterface, comm: CommunicationComponentInterface):
+    def __init__(self, engine: ExecutorEngineInterface, comm: CommunicationProtocol):
         self.engine = engine
         self.comm = comm
-        self.tasks = {}
+        self.tasks: Dict[CommClientProtocol, Task[Union[str, Coroutine[Any, Any, str], None]]] = {}
 
-    async def run_test(self):
+    async def run_test(self) -> Coroutine[Any, Any, str]:
         return await self.engine.run_script()
 
     async def stop_test(self):
         return await self.engine.stop_script()
 
-    async def current_status(self):
+    async def current_status(self) -> str:
+        print("Processing 'status' command...")
+
         await asyncio.sleep(3)
+        print("'status' command has been processed")
         return "currentStatus"
     
     async def load_profile(self):
@@ -24,17 +29,18 @@ class ScriptExecutor:
     async def load_product_info(self):
         pass
     
-    async def message_callback(self, client, message):
+    async def message_callback(self, client: CommClientProtocol, message: str):
+        task = None # Assign a default value to task
         if message == "status":
-            asyncio.create_task(self.comm.send_message(client, await self.current_status()))
-        else:
-            if message == "run":
-                task = asyncio.create_task(self.run_test())
-            elif message == "stop":
-                task = asyncio.create_task(self.stop_test())
-            
+            task = asyncio.create_task(self.current_status())
+        elif message == "run":
+            task = asyncio.create_task(self.run_test())
+        elif message == "stop":
+            task = asyncio.create_task(self.stop_test())
+        
+        if task is not None:
             task.add_done_callback(lambda t: asyncio.create_task(
-                self.comm.send_message(client, t.result())))
+                self.comm.send_message(client, str(t.result()))))
             self.tasks[client] = task
 
     async def run(self):
@@ -44,12 +50,10 @@ class ScriptExecutor:
 
 if __name__ == "__main__":
     from engine.tag_script_engine import TAGScriptEngine
-    from communication.websocket_comm import WebSocketCommComponent
-    # from communication.http_comm import HttpCommComponent
+    from communication.tag_websocket_protocol import TAGWebsocketCommProtocol
     # You'll need to create instances of classes that implement the interfaces
     engine = TAGScriptEngine()
-    comm = WebSocketCommComponent("localhost", 8765)
-    # comm = HttpCommComponent("localhost", 8765)
+    comm = TAGWebsocketCommProtocol("localhost", 8765)
     executor = ScriptExecutor(engine, comm)
     comm.set_message_callback(executor.message_callback)
     asyncio.run(executor.run())
