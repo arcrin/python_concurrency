@@ -1,0 +1,6 @@
+1. fetch product info
+2. wrap product info in a DUT class
+3. pass DUT into the profile
+4. profile use DUT to set up test cases
+
+------------------------------------------------------------------
