@@ -1,4 +1,4 @@
-from delay_functions import delay
+from util import delay
 import asyncio
 
 async def main():
