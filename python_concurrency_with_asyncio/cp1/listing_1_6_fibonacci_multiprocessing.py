@@ -13,7 +13,7 @@ def print_fib(number: int) -> None:
 
 
 def fibs_with_processes():
-    fortieth_process = multiprocessing.Process(target=print_fib, args=(40,))
+    fortieth_process = multiprocessing.Process(target=print_fib, args=(20,))
     forty_first_process = multiprocessing.Process(target=print_fib, args=(41,))
 
     fortieth_process.start()
