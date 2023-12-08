@@ -1,25 +1,25 @@
 import asyncio
 
-class AsyncCounter:
+class AsyncRange:
     def __init__(self, start, end):
-        self.current = start
+        self.start = start 
         self.end = end
 
     def __aiter__(self):
         return self
-
+    
     async def __anext__(self):
-        if self.current < self.end:
-            value = self.current
-            self.current += 1
+        if self.start >= self.end:
+            value = self.start
+            self.start += 1 
             return value
         else:
             raise StopAsyncIteration
-
-# Usage:
+        
 async def main():
-    async for number in AsyncCounter(0, 5):
+    async for number in AsyncRange(0, 3):
         print(number)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     asyncio.run(main())

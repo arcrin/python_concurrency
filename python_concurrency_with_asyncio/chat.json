@@ -12,7 +12,6 @@
   ],
   "requests": [
     {
-      "providerRequestId": "d52c1c5b-b629-41eb-a8c8-d51df086025b",
       "message": {
         "text": "I need some sample code for a DAG",
         "parts": [
@@ -63,52 +62,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\dependency_management\\dependency_graph.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/dependency_management/dependency_graph.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/dependency_management/dependency_graph.py",
-              "scheme": "file"
-            },
-            "version": 1,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 1,
-                "endColumn": 1
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\dependency_management\\dependency_graph.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/dependency_management/dependency_graph.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/dependency_management/dependency_graph.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 1,
-              "endColumn": 1
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "2d34e09e-29ce-40a3-a926-5def1ee54311",
       "message": {
         "text": "@workspace /explain ",
         "parts": [
@@ -207,52 +163,9 @@
           "isSecondary": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_14_basics_of_futures.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "scheme": "file"
-            },
-            "version": 200,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 10,
-                "endColumn": 64
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_14_basics_of_futures.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 10,
-              "endColumn": 64
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "f4102bb2-8ab3-4afb-8272-a1c7737ba5ef",
       "message": {
         "text": "/explain Type of \"my_future\" is partially unknown\n  Type of \"my_future\" is \"Future[Unknown]\"",
         "parts": [
@@ -303,52 +216,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_14_basics_of_futures.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "scheme": "file"
-            },
-            "version": 200,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 10,
-                "endColumn": 64
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_14_basics_of_futures.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 10,
-              "endColumn": 64
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "fe3c28ac-e87d-4f86-8382-78508987220d",
       "message": {
         "text": "show me the fix",
         "parts": [
@@ -399,52 +269,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_14_basics_of_futures.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "scheme": "file"
-            },
-            "version": 200,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 10,
-                "endColumn": 64
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_14_basics_of_futures.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 10,
-              "endColumn": 64
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "e8c862d1-d8bf-44d6-b428-b54eb611dda0",
       "message": {
         "text": "give my_future a proper type annotation",
         "parts": [
@@ -495,52 +322,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_14_basics_of_futures.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "scheme": "file"
-            },
-            "version": 200,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 10,
-                "endColumn": 64
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_14_basics_of_futures.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_14_basics_of_futures.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 10,
-              "endColumn": 64
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "5bf4dff2-16e6-4468-9f64-62338b6dc1a6",
       "message": {
         "text": "does c++ have asyncio like features?",
         "parts": [
@@ -591,52 +375,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_15_awaiting_a_future.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_15_awaiting_a_future.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_15_awaiting_a_future.py",
-              "scheme": "file"
-            },
-            "version": 405,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 21,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_15_awaiting_a_future.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_15_awaiting_a_future.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_15_awaiting_a_future.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 21,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "1e2e8a02-3842-44a8-be3e-3a8ceda54fa0",
       "message": {
         "text": "fix the type annotation of highlighted code",
         "parts": [
@@ -687,52 +428,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\util.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "scheme": "file"
-            },
-            "version": 450,
-            "ranges": [
-              {
-                "startLineNumber": 13,
-                "startColumn": 1,
-                "endLineNumber": 26,
-                "endColumn": 19
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\util.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 13,
-              "startColumn": 1,
-              "endLineNumber": 26,
-              "endColumn": 19
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "894c22fb-4b67-45ee-9c40-a1488d98b2ef",
       "message": {
         "text": "explain the highlighted code",
         "parts": [
@@ -783,52 +481,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\util.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "scheme": "file"
-            },
-            "version": 450,
-            "ranges": [
-              {
-                "startLineNumber": 13,
-                "startColumn": 1,
-                "endLineNumber": 26,
-                "endColumn": 19
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\util.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 13,
-              "startColumn": 1,
-              "endLineNumber": 26,
-              "endColumn": 19
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "4ac24991-c67e-46c0-912d-9aebfa13819a",
       "message": {
         "text": "what does functools.wraps do",
         "parts": [
@@ -879,52 +534,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\util.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "scheme": "file"
-            },
-            "version": 551,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 27,
-                "endColumn": 19
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\util.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/util.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 27,
-              "endColumn": 19
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "87f25b4d-9fd6-43db-aa7c-c45a358f3762",
       "message": {
         "text": "analyze the code",
         "parts": [
@@ -975,52 +587,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_23_cpu_bound_code_debug_mode.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_23_cpu_bound_code_debug_mode.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_23_cpu_bound_code_debug_mode.py",
-              "scheme": "file"
-            },
-            "version": 281,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 16,
-                "endColumn": 32
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_23_cpu_bound_code_debug_mode.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_23_cpu_bound_code_debug_mode.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_23_cpu_bound_code_debug_mode.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 16,
-              "endColumn": 32
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "575a026f-6873-42c2-ba8d-6a44e3418dfd",
       "message": {
         "text": "how do I add reference file to this chat",
         "parts": [
@@ -1071,52 +640,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_23_cpu_bound_code_debug_mode.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_23_cpu_bound_code_debug_mode.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_23_cpu_bound_code_debug_mode.py",
-              "scheme": "file"
-            },
-            "version": 281,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 16,
-                "endColumn": 32
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp2\\listing2_23_cpu_bound_code_debug_mode.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_23_cpu_bound_code_debug_mode.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp2/listing2_23_cpu_bound_code_debug_mode.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 16,
-              "endColumn": 32
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "293fa1e5-1570-4734-ab13-f650c7829317",
       "message": {
         "text": "could you provide an example with concurrent.futures.Future?",
         "parts": [
@@ -1167,52 +693,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp6\\listing6_5_process_pool_with_asyncio.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp6/listing6_5_process_pool_with_asyncio.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp6/listing6_5_process_pool_with_asyncio.py",
-              "scheme": "file"
-            },
-            "version": 1,
-            "ranges": [
-              {
-                "startLineNumber": 32,
-                "startColumn": 24,
-                "endLineNumber": 33,
-                "endColumn": 1
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp6\\listing6_5_process_pool_with_asyncio.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp6/listing6_5_process_pool_with_asyncio.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp6/listing6_5_process_pool_with_asyncio.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 32,
-              "startColumn": 24,
-              "endLineNumber": 33,
-              "endColumn": 1
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "b4fe8d23-569b-48ba-a6a2-48c4fd6fc217",
       "message": {
         "text": "in python annotation, how do I mark an argument optional",
         "parts": [
@@ -1263,52 +746,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp6\\listing6_5_process_pool_with_asyncio.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp6/listing6_5_process_pool_with_asyncio.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp6/listing6_5_process_pool_with_asyncio.py",
-              "scheme": "file"
-            },
-            "version": 1,
-            "ranges": [
-              {
-                "startLineNumber": 9,
-                "startColumn": 1,
-                "endLineNumber": 29,
-                "endColumn": 1
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\cp6\\listing6_5_process_pool_with_asyncio.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp6/listing6_5_process_pool_with_asyncio.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/cp6/listing6_5_process_pool_with_asyncio.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 9,
-              "startColumn": 1,
-              "endLineNumber": 29,
-              "endColumn": 1
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "2357dd37-3f58-4bfd-8537-93134c80178d",
       "message": {
         "text": "I would like to understand asyncio.gather() ",
         "parts": [
@@ -1359,52 +799,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "f:\\Learning\\python\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///f%3A/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/f:/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 1,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 1,
-                "endColumn": 1
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "f:\\Learning\\python\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///f%3A/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/f:/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 1,
-              "endColumn": 1
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "1501f981-9ebd-4b4a-b5ae-c0c62b33cb34",
       "message": {
         "text": "can you make two tasks, each running a loop, I would like to test how gather() handles loops",
         "parts": [
@@ -1455,52 +852,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "f:\\Learning\\python\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///f%3A/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/f:/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 129,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 13,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "f:\\Learning\\python\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///f%3A/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/f:/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 13,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "3b1c8334-16f1-4542-aa0b-7fc6a776e138",
       "message": {
         "text": "I have a question on syntax, here you are passing the list of tasks to gather(). I have seen a different syntax where tasks are passed to gather individually like this: asyncio.gather(task1, task2), what is the difference",
         "parts": [
@@ -1551,52 +905,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "f:\\Learning\\python\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///f%3A/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/f:/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 319,
-            "ranges": [
-              {
-                "startLineNumber": 9,
-                "startColumn": 1,
-                "endLineNumber": 16,
-                "endColumn": 18
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "f:\\Learning\\python\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///f%3A/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/f:/Learning/python/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 9,
-              "startColumn": 1,
-              "endLineNumber": 16,
-              "endColumn": 18
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "50cedd18-e25c-4d15-bbfe-8a0e1619bbc2",
       "message": {
         "text": "take a look at the code ",
         "parts": [
@@ -1647,52 +958,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 440,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 25,
-                "endColumn": 33
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 25,
-              "endColumn": 33
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "b79a23b9-2ee4-47db-840b-30fca53184ae",
       "message": {
         "text": "I am having some trouble here. enqueue and dequeue tasks are meant to terminate. However, when I run this code, it seems dequeue is never finished, I don't see the print statement 'dequeue done'",
         "parts": [
@@ -1743,52 +1011,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 540,
-            "ranges": [
-              {
-                "startLineNumber": 20,
-                "startColumn": 11,
-                "endLineNumber": 20,
-                "endColumn": 25
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 20,
-              "startColumn": 11,
-              "endLineNumber": 20,
-              "endColumn": 25
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "5b327e8c-68c5-4c1c-bbdc-013473eb65e1",
       "message": {
         "text": "no, the condition is fine",
         "parts": [
@@ -1839,52 +1064,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 540,
-            "ranges": [
-              {
-                "startLineNumber": 20,
-                "startColumn": 11,
-                "endLineNumber": 20,
-                "endColumn": 25
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 20,
-              "startColumn": 11,
-              "endLineNumber": 20,
-              "endColumn": 25
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "a24f326b-e266-4efb-b4a7-5817e6e5bc98",
       "message": {
         "text": "no, didn't help, still hangs",
         "parts": [
@@ -1935,52 +1117,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 619,
-            "ranges": [
-              {
-                "startLineNumber": 21,
-                "startColumn": 42,
-                "endLineNumber": 22,
-                "endColumn": 26
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 21,
-              "startColumn": 42,
-              "endLineNumber": 22,
-              "endColumn": 26
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "166f0f7c-0010-48e5-a2aa-1ee264c7ae2b",
       "message": {
         "text": "this wouldn't work. Since there will always be a chance the queue is empty betwen new tasks being put on the queue",
         "parts": [
@@ -2031,52 +1170,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 656,
-            "ranges": [
-              {
-                "startLineNumber": 11,
-                "startColumn": 1,
-                "endLineNumber": 28,
-                "endColumn": 18
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 11,
-              "startColumn": 1,
-              "endLineNumber": 28,
-              "endColumn": 18
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "cc53e6de-88d9-4348-8672-5d5f713de406",
       "message": {
         "text": "is there anyway that I can check which task is pending?",
         "parts": [
@@ -2127,52 +1223,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 656,
-            "ranges": [
-              {
-                "startLineNumber": 11,
-                "startColumn": 1,
-                "endLineNumber": 28,
-                "endColumn": 18
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 11,
-              "startColumn": 1,
-              "endLineNumber": 28,
-              "endColumn": 18
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "0b11e22c-7abd-4cd3-9fc6-19a447ac281a",
       "message": {
         "text": "this wouldn't work. As I told you, the program wouldn't even get to  print('dequeue done') statement",
         "parts": [
@@ -2223,52 +1276,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 656,
-            "ranges": [
-              {
-                "startLineNumber": 25,
-                "startColumn": 5,
-                "endLineNumber": 25,
-                "endColumn": 26
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 25,
-              "startColumn": 5,
-              "endLineNumber": 25,
-              "endColumn": 26
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "773c0434-0d3a-4e99-ae29-7ef1db1ad1c3",
       "message": {
         "text": "no, this wouldn't work. the main coroutine is suspended at await asyncio.gather(t1, t2). I need a way to check why gather is not completing",
         "parts": [
@@ -2319,52 +1329,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 744,
-            "ranges": [
-              {
-                "startLineNumber": 28,
-                "startColumn": 5,
-                "endLineNumber": 28,
-                "endColumn": 33
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 28,
-              "startColumn": 5,
-              "endLineNumber": 28,
-              "endColumn": 33
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "ae9520a7-9f51-40be-8b58-d31809d85cff",
       "message": {
         "text": "I can see all taks are finished, except dequeue",
         "parts": [
@@ -2415,52 +1382,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 755,
-            "ranges": [
-              {
-                "startLineNumber": 11,
-                "startColumn": 1,
-                "endLineNumber": 28,
-                "endColumn": 40
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 11,
-              "startColumn": 1,
-              "endLineNumber": 28,
-              "endColumn": 40
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "dfdd6baa-524c-41c6-8f67-439abc861f25",
       "message": {
         "text": "no, we check before, the condition is fine",
         "parts": [
@@ -2511,52 +1435,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 755,
-            "ranges": [
-              {
-                "startLineNumber": 11,
-                "startColumn": 1,
-                "endLineNumber": 28,
-                "endColumn": 40
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 11,
-              "startColumn": 1,
-              "endLineNumber": 28,
-              "endColumn": 40
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "f747b531-74a7-4cfc-a692-8a522052087a",
       "message": {
         "text": "look at the highlighted line",
         "parts": [
@@ -2607,52 +1488,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 755,
-            "ranges": [
-              {
-                "startLineNumber": 21,
-                "startColumn": 9,
-                "endLineNumber": 21,
-                "endColumn": 33
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 21,
-              "startColumn": 9,
-              "endLineNumber": 21,
-              "endColumn": 33
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "aaf18efa-c7ee-4483-8290-5bf3f0a6080f",
       "message": {
         "text": "when I change the delay from 0.1 second to 1 second, dequeue terminated properly",
         "parts": [
@@ -2703,52 +1541,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 759,
-            "ranges": [
-              {
-                "startLineNumber": 11,
-                "startColumn": 1,
-                "endLineNumber": 28,
-                "endColumn": 40
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 11,
-              "startColumn": 1,
-              "endLineNumber": 28,
-              "endColumn": 40
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "f6fe14aa-f47b-4bd5-9283-177e3d041239",
       "message": {
         "text": "why would there be a race condition? the producer consumer pattern is meant for this kind of operation. enqueue puts the task in the queue, dequeue gets the task from the queue. They don't update the content of the queue at the same time, do they?",
         "parts": [
@@ -2799,52 +1594,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 767,
-            "ranges": [
-              {
-                "startLineNumber": 11,
-                "startColumn": 1,
-                "endLineNumber": 34,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 11,
-              "startColumn": 1,
-              "endLineNumber": 34,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "53d9014a-c9fc-47d5-86ae-d863fb020396",
       "message": {
         "text": "well, my problem is that dequeue never finishes executing",
         "parts": [
@@ -2895,52 +1647,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 767,
-            "ranges": [
-              {
-                "startLineNumber": 11,
-                "startColumn": 1,
-                "endLineNumber": 34,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 11,
-              "startColumn": 1,
-              "endLineNumber": 34,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "f0ddea00-ecbd-41cf-b57f-2da1fb4943e7",
       "message": {
         "text": "I need to get back to the basics. show me a sample code that uses asyncio.create_task",
         "parts": [
@@ -2991,52 +1700,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 767,
-            "ranges": [
-              {
-                "startLineNumber": 11,
-                "startColumn": 1,
-                "endLineNumber": 34,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 11,
-              "startColumn": 1,
-              "endLineNumber": 34,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "604b4a82-4d1f-4461-bf80-57fdfd5f04a1",
       "message": {
         "text": "I see that you await each task that has been created throught create_task",
         "parts": [
@@ -3087,52 +1753,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 767,
-            "ranges": [
-              {
-                "startLineNumber": 6,
-                "startColumn": 1,
-                "endLineNumber": 34,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 6,
-              "startColumn": 1,
-              "endLineNumber": 34,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "7fa51c2e-22cf-4e75-8da9-ebb2160cb375",
       "message": {
         "text": "so, the asyncio.gather in my main function only cares about t1, and t2 tasks",
         "parts": [
@@ -3183,52 +1806,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 844,
-            "ranges": [
-              {
-                "startLineNumber": 6,
-                "startColumn": 1,
-                "endLineNumber": 29,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 6,
-              "startColumn": 1,
-              "endLineNumber": 29,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "7947c6cd-bd62-49af-abf3-230c65a1974d",
       "message": {
         "text": "what you provided here does not help with my bug. As I told you, the code never gets out of the while loop inside dequeue. the addition of await asyncio.gather(*running_tasks) will not be reached",
         "parts": [
@@ -3279,52 +1859,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 844,
-            "ranges": [
-              {
-                "startLineNumber": 6,
-                "startColumn": 1,
-                "endLineNumber": 29,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 6,
-              "startColumn": 1,
-              "endLineNumber": 29,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "bbc1539c-ba7b-4d99-af27-e86bf7912603",
       "message": {
         "text": "you are simply changing the termination condtion of the loop. The condition is fine. there is something in the system that is not releasing the code",
         "parts": [
@@ -3375,52 +1912,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 844,
-            "ranges": [
-              {
-                "startLineNumber": 6,
-                "startColumn": 1,
-                "endLineNumber": 29,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 6,
-              "startColumn": 1,
-              "endLineNumber": 29,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "57cb5a20-4ba7-47d1-9900-43c1a26490f9",
       "message": {
         "text": "again, why would this help? I told you it never gets to that point",
         "parts": [
@@ -3471,52 +1965,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 844,
-            "ranges": [
-              {
-                "startLineNumber": 6,
-                "startColumn": 1,
-                "endLineNumber": 29,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 6,
-              "startColumn": 1,
-              "endLineNumber": 29,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "cfa085cc-65ba-44d0-800e-061da8158ea8",
       "message": {
         "text": "I am tracking all coroutines with async_timed() decorator. evereything finishes except dequeue",
         "parts": [
@@ -3567,52 +2018,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 892,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 30,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 30,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "45c9b53d-00b4-46af-b8b9-8ed4cfcbcf24",
       "message": {
         "text": "No, I am confidant the condition logic of that loop is fine",
         "parts": [
@@ -3663,52 +2071,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 892,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 30,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 30,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "09f8a770-5ed8-4a99-9feb-14296fb91bdb",
       "message": {
         "text": "if I await the tasks inside dequeue, then this wouldn't allow tasks to run in parallel. the dequeue would wait for a task to finish before getting another task from the queue and execute it",
         "parts": [
@@ -3759,52 +2124,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 892,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 30,
-                "endColumn": 20
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 30,
-              "endColumn": 20
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "bc387192-343a-4bea-bdfc-fb6ee00bc2d5",
       "message": {
         "text": "let's make this test code into a class",
         "parts": [
@@ -3855,52 +2177,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 1161,
-            "ranges": [
-              {
-                "startLineNumber": 1,
-                "startColumn": 1,
-                "endLineNumber": 34,
-                "endColumn": 72
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 1,
-              "startColumn": 1,
-              "endLineNumber": 34,
-              "endColumn": 72
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "585bfbb9-e2cd-4707-b77f-0672cf4d60cf",
       "message": {
         "text": "I would like the enqueue function have the ability to reference the dequeue function",
         "parts": [
@@ -3951,52 +2230,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 1163,
-            "ranges": [
-              {
-                "startLineNumber": 11,
-                "startColumn": 1,
-                "endLineNumber": 34,
-                "endColumn": 34
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 11,
-              "startColumn": 1,
-              "endLineNumber": 34,
-              "endColumn": 34
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "59eaf385-1ae9-415e-8ca7-26725cffb07c",
       "message": {
         "text": "why not just make all producer consumer tasks into instance variables",
         "parts": [
@@ -4047,52 +2283,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 1163,
-            "ranges": [
-              {
-                "startLineNumber": 11,
-                "startColumn": 1,
-                "endLineNumber": 34,
-                "endColumn": 34
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 11,
-              "startColumn": 1,
-              "endLineNumber": 34,
-              "endColumn": 34
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "7ea67b6d-e4c0-473c-8c2c-59149b9259e8",
       "message": {
         "text": "inside enqueue function, I would like to await for dequeue to finish before exit",
         "parts": [
@@ -4143,52 +2336,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 1169,
-            "ranges": [
-              {
-                "startLineNumber": 24,
-                "startColumn": 1,
-                "endLineNumber": 36,
-                "endColumn": 34
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 24,
-              "startColumn": 1,
-              "endLineNumber": 36,
-              "endColumn": 34
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "6952e099-eade-4d40-b8e6-fd652091285f",
       "message": {
         "text": "is there a way to manually mark dequeue_task as finished?",
         "parts": [
@@ -4239,52 +2389,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 1218,
-            "ranges": [
-              {
-                "startLineNumber": 18,
-                "startColumn": 33,
-                "endLineNumber": 19,
-                "endColumn": 32
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 18,
-              "startColumn": 33,
-              "endLineNumber": 19,
-              "endColumn": 32
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "a847129f-5eb8-4331-a808-73617fc4b922",
       "message": {
         "text": "lets give cancel a try. I have no other way to terminate dequeue_task at this point. I would like to cancel dequeue_task inside the enqueu coroutine, after the for loop exists, clear the task_list, then check if task_queue is empty, if it is empty, cancel dequeue_task",
         "parts": [
@@ -4335,52 +2442,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 1218,
-            "ranges": [
-              {
-                "startLineNumber": 18,
-                "startColumn": 33,
-                "endLineNumber": 19,
-                "endColumn": 32
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 18,
-              "startColumn": 33,
-              "endLineNumber": 19,
-              "endColumn": 32
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "ad155501-dc0d-45d5-8279-65c570f8b995",
       "message": {
         "text": "didnt you say we need to handle cancelerror in the dequeue_task?",
         "parts": [
@@ -4431,52 +2495,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "version": 1218,
-            "ranges": [
-              {
-                "startLineNumber": 18,
-                "startColumn": 33,
-                "endLineNumber": 19,
-                "endColumn": 32
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\gather_test.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/gather_test.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 18,
-              "startColumn": 33,
-              "endLineNumber": 19,
-              "endColumn": 32
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "41521e2b-393d-4aab-9526-8e9241150515",
       "message": {
         "text": "how does async iterator work",
         "parts": [
@@ -4527,52 +2548,9 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
-          {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Python312\\Lib\\asyncio\\tasks.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Python312/Lib/asyncio/tasks.py",
-              "path": "/c:/Python312/Lib/asyncio/tasks.py",
-              "scheme": "file"
-            },
-            "version": 1,
-            "ranges": [
-              {
-                "startLineNumber": 745,
-                "startColumn": 1,
-                "endLineNumber": 779,
-                "endColumn": 27
-              }
-            ]
-          }
-        ]
-      },
-      "contentReferences": [
-        {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Python312\\Lib\\asyncio\\tasks.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Python312/Lib/asyncio/tasks.py",
-              "path": "/c:/Python312/Lib/asyncio/tasks.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 745,
-              "startColumn": 1,
-              "endLineNumber": 779,
-              "endColumn": 27
-            }
-          }
-        }
-      ]
+      "contentReferences": []
     },
     {
-      "providerRequestId": "2739330e-49ff-4865-b0fd-4179a4a1d76a",
       "message": {
         "text": "what is the difference between iterator and generator",
         "parts": [
@@ -4623,49 +2601,60 @@
           "isDefault": true
         }
       },
-      "usedContext": {
-        "documents": [
+      "contentReferences": []
+    },
+    {
+      "message": {
+        "text": "need more example on async iterator",
+        "parts": [
           {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\async_iterator.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/async_iterator.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/async_iterator.py",
-              "scheme": "file"
+            "range": {
+              "start": 0,
+              "endExclusive": 35
             },
-            "version": 66,
-            "ranges": [
-              {
-                "startLineNumber": 7,
-                "startColumn": 1,
-                "endLineNumber": 22,
-                "endColumn": 22
-              }
-            ]
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 36
+            },
+            "text": "need more example on async iterator",
+            "kind": "text"
           }
         ]
       },
-      "contentReferences": [
+      "response": [
         {
-          "reference": {
-            "uri": {
-              "$mid": 1,
-              "fsPath": "c:\\Learning\\python_projects\\python_concurrency\\python_concurrency_with_asyncio\\scrap\\async_iterator.py",
-              "_sep": 1,
-              "external": "file:///c%3A/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/async_iterator.py",
-              "path": "/c:/Learning/python_projects/python_concurrency/python_concurrency_with_asyncio/scrap/async_iterator.py",
-              "scheme": "file"
-            },
-            "range": {
-              "startLineNumber": 7,
-              "startColumn": 1,
-              "endLineNumber": 22,
-              "endColumn": 22
-            }
-          }
+          "value": "Sure, here's another example of an asynchronous iterator. This one is an asynchronous version of Python's built-in `range` function:\n\n```python\nclass AsyncRange:\n    def __init__(self, start, end):\n        self.start = start\n        self.end = end\n\n    def __aiter__(self):\n        return self\n\n    async def __anext__(self):\n        if self.start < self.end:\n            value = self.start\n            self.start += 1\n            return value\n        else:\n            raise StopAsyncIteration\n\n# Usage:\nasync for number in AsyncRange(0, 5):\n    print(number)\n```\n\nThis will print the numbers 0 through 4, one at a time. The `AsyncRange` class is an asynchronous iterator that generates numbers in a range. The `__aiter__` method returns the iterator object itself, and the `__anext__` method returns the next number in the range or raises a `StopAsyncIteration` exception if the range is exhausted.\n\nAsynchronous iterators like this can be used with the `async for` statement to iterate over a collection of items asynchronously. This is useful when the items are produced by an asynchronous operation, such as reading from a file or a network connection.",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
         }
-      ]
+      ],
+      "followups": [
+        {
+          "kind": "reply",
+          "message": "How can I handle exceptions raised by tasks in asyncio?",
+          "metadata": {
+            "messageId": "982011f3-f704-4663-82a2-e3f9b182f36c",
+            "suggestionId": "24fd1569-2583-447c-83a1-c3ec992da5be",
+            "suggestionType": "Follow-up from model"
+          },
+          "title": "How can I handle exceptions raised by tasks in asyncio?"
+        }
+      ],
+      "isCanceled": false,
+      "agent": {
+        "id": "",
+        "metadata": {
+          "description": "",
+          "fullName": "GitHub Copilot",
+          "hasSlashCommands": true,
+          "hasFollowup": true,
+          "isDefault": true
+        }
+      },
+      "contentReferences": []
     }
   ],
   "providerId": "copilot"
